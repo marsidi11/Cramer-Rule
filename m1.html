@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Method 1 (2x2)</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon"  href="img/icon.png">
+	<link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<a class="a" href="index.html">Home Page</a>
+	<h1 class="hhh">Method 1</h1>
+	<a class="b" href="m2.html">Method 2</a>
+
+	<button class="button11">
+		<span class="sp1">{</span>a<sub>1</sub>x +  b<sub>1</sub>y = c<sub>1</sub> 
+		<br>
+		a<sub>2</sub>x +  b<sub>2</sub>y = c<sub>2</sub> 
+	</button>
+
+	<form name="input">
+		<h3>A</h3>
+		<input type="text" name="av1" placeholder="Write A1">
+		<input type="text" name="av2" placeholder="Write A2">
+		<h3>B</h3>
+		<input type="text" name="bv1" placeholder="Write B1">
+		<input type="text" name="bv2" placeholder="Write B2">
+		<h3>C</h3>
+		<input type="text" name="cv1" placeholder="Write C1">
+		<input type="text" name="cv2" placeholder="Write C2">
+		<div class="solve">
+			<h3>Solution</h3>
+			<input id="xv" type="text" placeholder="X = " readonly="readonly">
+			<input id="yv" type="text" placeholder="Y = " readonly="readonly">
+		</div>
+		<br>
+		<br>
+		<input type="button" value="Submit" onclick="Method1()" name="submit">
+		<input type="reset" name="reset">
+	</form>
+</body>
+</html>

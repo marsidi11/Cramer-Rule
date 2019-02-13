@@ -1,0 +1,163 @@
+body {
+	background-color: #34495e;	
+}
+h1 {
+	text-align: center;
+	font-size: 60px;
+	font-family: "Concert One";
+	color: #ff793f;
+}
+.hhh {
+	color: #95a5a6;
+}
+div {
+	font-size: 30px;
+	font-family: "Concert One";
+	color: #f1c40f;
+}
+.method2 {
+	position: absolute;
+	float: right;
+	right: 250px;
+}
+.method1 {
+	position: absolute;
+	float: left;
+	left: 250px;
+}
+
+@keyframes name {
+	0% {
+		background-color: transparent;
+	}
+	50% {
+		background-color: #ff793f;
+	}
+	100% {
+		background-color: transparent;
+	}
+}
+button {
+	width: 500px;
+	height: 200px;
+	margin: 15px 0 0 9%;
+	font-size: 30px;
+	font-family: "Roboto Slab";
+	background-color: transparent;
+	border: solid black 2px;
+	animation: name 5s infinite;
+	animation-delay: 2s;
+}
+span.sp1 {
+	font-size: 80px;
+	float: left;
+	position: absolute;
+	transform: translate(-50px, -10px);
+}
+span.sp2 {
+	font-size: 100px;
+	float: left;
+	position: absolute;
+	transform: translate(-50px, -5px);
+}
+#button1 {
+	transform: translate(-5%, 20%);
+}
+#button2 {
+	transform: translate(0%, 6%);
+}
+
+p {
+	text-align: center;
+	transform: translateY(120px);
+	font-family: "Concert One";
+}
+.punoi {
+	border: solid 3px black;
+	padding: 10px;	
+	background-color: #f1c40f;
+	font-size: 25px;
+}
+.button11 {
+	width: 330px;
+	height: 200px;
+	font-size: 30px;
+	font-family: "Roboto Slab";
+	background-color: transparent;
+	position: absolute;
+	left: 20%;
+	animation-delay: 5s;
+	transform: translate(-110%, 40%);
+}
+.button22 {
+	width: 360px;
+	height: 200px;
+	font-size: 30px;
+	font-family: "Roboto Slab";
+	background-color: transparent;
+	position: absolute;
+	left: 20%;
+	animation-delay: 5s;
+	transform: translate(-104%, 40%);
+}
+form {
+	color: white;
+	width: 700px;
+	height: 340px;
+	text-align: center;
+	padding: 5px;
+	margin: 25px;
+	position: absolute;
+	top: 20%;
+	left: 28%;
+	width: 550px;
+	height: 420px;
+	border: 2px black solid;
+	background-color: #353b48;
+}
+form.fff {
+	height: 520px;
+}
+input {
+	padding: 5px; 
+	margin: 10px;
+	font-size: 15px;
+	text-align: center;
+}
+input.inputt{
+	width: 100px;
+	font-size: 14px;
+}
+.solve {
+	display: block;
+	position: absolute;
+	top: 10%;
+	left: 113%;
+	width: 250px;
+	height: 300px;
+	border: solid black 2px;
+	animation: name 5s infinite;
+	animation-delay: 5s;
+}
+a.a {
+	text-decoration: none;
+	font-size: 40px;
+	color: #95a5a6;
+	font-family: "Concert One";
+	text-align: left;
+	float: left;
+	left: 150px;
+}
+a.b {
+	text-decoration: none;
+	font-size: 45px;
+	color: #95a5a6;
+	font-family: "Concert One";
+	float: right;
+	text-align: right;
+	left: 78%;
+}
+a {
+	position: absolute;
+	top: 50px;
+}
